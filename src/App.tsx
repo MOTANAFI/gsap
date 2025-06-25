@@ -1,12 +1,12 @@
 // import GsapBox from "./components/GsapBox"
-
-import GsapHoverBox from "./components/GsapHoverBox"
-
+// import GsapHoverBox from "./components/GsapHoverBox"
 // import GsapTimeline from "./components/GsapTimeline"
-
 // import GsapStaggerSimple from "./components/StaggerSimple"
-
 // import GsapStaggerBox from "./components/GsapStaggerBox"
+// import GsapClickBox from "./components/GsapClickBox"
+
+import GsapChallenge from "./components/GsapChallenge"
+
 
 
 function App() {
@@ -18,7 +18,10 @@ function App() {
   {/* <GsapStaggerBox /> */}
   {/* <GsapStaggerSimple /> */}
   {/* <GsapTimeline /> */}
-  <GsapHoverBox />
+  {/* <GsapHoverBox /> */}
+  {/* <GsapClickBox /> */}
+  <GsapChallenge />
+  
     
     </>
   )
