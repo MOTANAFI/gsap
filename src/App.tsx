@@ -1,4 +1,8 @@
-import GsapBox from "./components/GsapBox"
+// import GsapBox from "./components/GsapBox"
+
+import GsapStaggerSimple from "./components/StaggerSimple"
+
+// import GsapStaggerBox from "./components/GsapStaggerBox"
 
 
 function App() {
@@ -6,7 +10,9 @@ function App() {
 
   return (
     <>
-  <GsapBox />
+  {/* <GsapBox /> */}
+  {/* <GsapStaggerBox /> */}
+  <GsapStaggerSimple />
     
     </>
   )
