@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import StaggerScrollBox from "./components/StaggerScrollBox"
+import StaggerTimelineBoxes from "./components/StaggerTimelineBoxes"
+
+// import StaggerScrollBox from "./components/StaggerScrollBox"
 
 // import GsapScrollTrigger from "./components/GsapScrollTrigger"
 
@@ -25,7 +27,8 @@ function App() {
   {/* <GsapClickBox /> */}
   {/* <GsapChallenge /> */}
   {/* <GsapScrollTrigger /> */}
-  <StaggerScrollBox />
+  {/* <StaggerScrollBox /> */}
+  <StaggerTimelineBoxes />
   
     
     </>
