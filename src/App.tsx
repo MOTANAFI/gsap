@@ -6,7 +6,12 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import Gsap3DBox from "./components/Gsap3DBox"
+import FlipCardAuto from "./components/FlipCardAuto"
+// import FlipCardClick from "./components/FlipCardClick"
+
+// import FlipCard from "./components/FlipCard"
+
+// import Gsap3DBox from "./components/Gsap3DBox"
 
 // import GsapScrollChallenge from "./components/gsapScrollChallenge"
 // import StaggerTimelineBoxes from "./components/StaggerTimelineBoxes"
@@ -33,7 +38,10 @@ function App() {
   {/* <StaggerScrollBox /> */}
   {/* <StaggerTimelineBoxes /> */}
   {/* <GsapScrollChallenge /> */}
-  <Gsap3DBox />
+  {/* <Gsap3DBox /> */}
+  {/* <FlipCard /> */}
+  {/* <FlipCardClick /> */}
+  <FlipCardAuto />
   
     
     </>
