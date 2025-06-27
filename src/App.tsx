@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import FlipCardAuto from "./components/FlipCardAuto"
+import MultiFlipCard from "./components/MultiFlipCard"
+
+// import FlipCardAuto from "./components/FlipCardAuto"
 // import FlipCardClick from "./components/FlipCardClick"
 
 // import FlipCard from "./components/FlipCard"
@@ -41,7 +43,8 @@ function App() {
   {/* <Gsap3DBox /> */}
   {/* <FlipCard /> */}
   {/* <FlipCardClick /> */}
-  <FlipCardAuto />
+  {/* <FlipCardAuto /> */}
+  < MultiFlipCard />
   
     
     </>
