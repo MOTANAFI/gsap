@@ -18,18 +18,21 @@ function ScrolTriggerChallenge() {
             if(!card) return;
             gsap.fromTo(
                 card, {
-                    rotateY: 0
+                    rotateY: 0,
+                    opacity: 0,
                 },{
                     rotateY: 180,
                     duration: 0.6,
+                    opacity:1,
                     ease: "power2.inOut",
                     scrollTrigger:{
                         trigger: card,
                         start: "top 80%",
+                        
                         // scrub: true,
                         // // pin: true,
                         // markers: true
-                        // toggleActions: "play none none reverse",
+                        toggleActions: "play none none reverse",
                     }
                 }
             )
