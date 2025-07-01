@@ -6,8 +6,10 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import MultiFlipCardStagger from "./components/MultiFlipCardStagger"
-import ScrolTriggerChallenge from "./components/ScrolTriggerChallenge"
+import ScrollBasic from "./components/ScrollBasic"
+
+// import MultiFlipCardStagger from "./components/MultiFlipCardStagger"
+// import ScrolTriggerChallenge from "./components/ScrolTriggerChallenge"
 
 // import MultiFlipCard from "./components/MultiFlipCard"
 
@@ -49,7 +51,8 @@ function App() {
   {/* <FlipCardAuto /> */}
   {/* < MultiFlipCard /> */}
   {/* <MultiFlipCardStagger /> */}
-  <ScrolTriggerChallenge />
+  {/* <ScrolTriggerChallenge /> */}
+  <ScrollBasic />
   
     
     </>
