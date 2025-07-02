@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import ScrollScrapPin from "./components/ScrollScrapPin"
+import ScrollMultiBoxes from "./components/ScrollMultiBoxes"
+
+// import ScrollScrapPin from "./components/ScrollScrapPin"
 
 // import ScrollBasic from "./components/ScrollBasic"
 
@@ -55,7 +57,8 @@ function App() {
   {/* <MultiFlipCardStagger /> */}
   {/* <ScrolTriggerChallenge /> */}
   {/* <ScrollBasic /> */}
-  <ScrollScrapPin />
+  {/* <ScrollScrapPin /> */}
+  <ScrollMultiBoxes />
   
     
     </>
