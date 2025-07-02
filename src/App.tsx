@@ -6,7 +6,11 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import ScrollMultiBoxes from "./components/ScrollMultiBoxes"
+import ScrollParallaxEffect from "./components/ScrollParallaxEffect"
+
+// import ScrollingTimeLine from "./components/ScrollingTimeLine"
+
+// import ScrollMultiBoxes from "./components/ScrollMultiBoxes"
 
 // import ScrollScrapPin from "./components/ScrollScrapPin"
 
@@ -58,7 +62,9 @@ function App() {
   {/* <ScrolTriggerChallenge /> */}
   {/* <ScrollBasic /> */}
   {/* <ScrollScrapPin /> */}
-  <ScrollMultiBoxes />
+  {/* <ScrollMultiBoxes /> */}
+  {/* <ScrollingTimeLine /> */}
+  <ScrollParallaxEffect />
   
     
     </>
