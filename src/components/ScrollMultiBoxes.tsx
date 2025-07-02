@@ -10,14 +10,16 @@ function ScrollMultiBoxes() {
   const sectionRef = useRef<HTMLDivElement | null>(null);
   useGSAP(() => {
     // reverse back animation 
-    gsap.fromTo(boxesRef.current, {
+    const ctx = gsap.context(() => {
+
+      gsap.fromTo(boxesRef.current, {
         x:-200,
         opacity: 0,
         backgroundColor: "#6366f1",
         scale:0.5,
         rotate: 0
-
-    }, {
+        
+      }, {
         x:200,
         opacity:1,
         backgroundColor: "#10b981",
@@ -26,32 +28,34 @@ function ScrollMultiBoxes() {
         stagger: 0.2,
         ease: "none",
         scrollTrigger: {
-            trigger: sectionRef.current,
-            start: "top center",
-            end:"+=1000",
-            scrub:true,
-            pin:true,
-            markers: true
+          trigger: sectionRef.current,
+          start: "top center",
+          end:"+=1000",
+          scrub:true,
+          pin:true,
+          markers: true
         }
-
-    })
-    // gsap.to(boxesRef.current, {
-    //   x: 200,
-    //   opacity: 1,
-    //   backgroundColor: "#10b981",
-    //   scale: 1.3,
-    //   rotate: 360,
-    //   stagger: 0.2,
-    //   ease: "power2.inOut",
-    //   scrollTrigger: {
-    //     trigger: sectionRef.current,
-    //     start: "top center",
-    //     end: "+=1000",
-    //     scrub: true,
-    //     pin: true,
-    //     markers: true,
-    //   },
-    // });
+        
+      })
+      // gsap.to(boxesRef.current, {
+        //   x: 200,
+        //   opacity: 1,
+        //   backgroundColor: "#10b981",
+        //   scale: 1.3,
+        //   rotate: 360,
+        //   stagger: 0.2,
+        //   ease: "power2.inOut",
+        //   scrollTrigger: {
+          //     trigger: sectionRef.current,
+          //     start: "top center",
+          //     end: "+=1000",
+          //     scrub: true,
+          //     pin: true,
+          //     markers: true,
+          //   },
+          // });
+        })
+        return () => ctx.revert() // clean up scrollTriger + animation
   }, []);
   return (
     <div className="bg-gray-100">
