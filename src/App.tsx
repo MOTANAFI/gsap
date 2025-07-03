@@ -6,8 +6,10 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import OptionalBonusChallenge from "./components/OptionalBonusChallenge"
-import TimelineScrollReveal from "./components/TimelineScrollReveal"
+import CustomScrollTimeline from "./components/CustomScrollTimeline"
+
+// import OptionalBonusChallenge from "./components/OptionalBonusChallenge"
+// import TimelineScrollReveal from "./components/TimelineScrollReveal"
 
 // import ResponsiveScroll from "./components/ResponsiveScroll"
 
@@ -72,7 +74,9 @@ function App() {
   {/* <ScrollParallaxEffect /> */}
   {/* <ResponsiveScroll /> */}
   {/* <OptionalBonusChallenge /> */}
-  < TimelineScrollReveal />
+  {/* < TimelineScrollReveal /> */}
+
+  < CustomScrollTimeline />
   
     
     </>
