@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import HorizontalScrollWithTextFade from "./components/HorizontalScrollWithTextFade"
+import HorizontalScrollCustomPanels from "./components/HorizontalScrollCustomPanels"
+
+// import HorizontalScrollWithTextFade from "./components/HorizontalScrollWithTextFade"
 
 // import HorizontalScrollingSection from "./components/HorizontalScrollingSection"
 
@@ -86,7 +88,8 @@ function App() {
   {/* <ParallaxHero /> */}
 
   {/* <HorizontalScrollingSection /> */}
-  <HorizontalScrollWithTextFade />
+  {/* <HorizontalScrollWithTextFade /> */}
+  <HorizontalScrollCustomPanels />
   
     
     </>
