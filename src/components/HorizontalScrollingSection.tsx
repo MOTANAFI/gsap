@@ -19,6 +19,7 @@ function HorizontalScrollingSection() {
                 trigger: containerRef.current,
                 pin: true,
                 scrub:1,
+                snap: 1 /(totalPanels -1), // <-- this line adds snapping 
                 markers: true,
                 end: () => "+=" + containerRef.current!.offsetWidth
             }
