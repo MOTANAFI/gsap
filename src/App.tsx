@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import ScrollRevealSections from "./components/ScrollRevealSections"
+import SequentialScrollAnimation from "./components/SequentialScrollAnimation"
+
+// import ScrollRevealSections from "./components/ScrollRevealSections"
 
 // import HorizontalScrollWithNav from "./components/HorizontalScrollWithNav"
 
@@ -95,7 +97,8 @@ function App() {
   {/* <HorizontalScrollWithTextFade /> */}
   {/* <HorizontalScrollCustomPanels /> */}
   {/* < HorizontalScrollWithNav /> */}
-  <ScrollRevealSections />
+  {/* <ScrollRevealSections /> */}
+  <SequentialScrollAnimation />
   
     
     </>
