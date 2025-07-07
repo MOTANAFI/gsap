@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import DynamicBackgroundScroll from "./components/DynamicBackgroundScroll"
+import TimelineScrubbingScroll from "./components/TimelineScrubbingScroll"
+
+// import DynamicBackgroundScroll from "./components/DynamicBackgroundScroll"
 
 // import SplitScreenScrollAnimated from "./components/SplitScreenScrollAnimated"
 
@@ -110,7 +112,8 @@ function App() {
   {/* <ScrollSyncedHero /> */}
   {/* < SplitScreenScroll /> */}
   {/* <SplitScreenScrollAnimated /> */}
-  <DynamicBackgroundScroll />
+  {/* <DynamicBackgroundScroll /> */}
+  <TimelineScrubbingScroll />
   
     
     </>
