@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import ScrollSyncedHero from "./components/ScrollSyncedHero"
+import SplitScreenScroll from "./components/SplitScreenScroll"
+
+// import ScrollSyncedHero from "./components/ScrollSyncedHero"
 
 // import SequentialScrollAnimation from "./components/SequentialScrollAnimation"
 
@@ -101,7 +103,8 @@ function App() {
   {/* < HorizontalScrollWithNav /> */}
   {/* <ScrollRevealSections /> */}
   {/* <SequentialScrollAnimation /> */}
-  <ScrollSyncedHero />
+  {/* <ScrollSyncedHero /> */}
+  < SplitScreenScroll />
   
     
     </>
