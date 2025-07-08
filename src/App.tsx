@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import GsapAccordion from "./components/GsapAccordion"
+import HoverCards from "./components/HoverCards"
+
+// import GsapAccordion from "./components/GsapAccordion"
 
 // import GsapModal from "./components/GsapModal"
 
@@ -119,7 +121,8 @@ function App() {
   {/* <DynamicBackgroundScroll /> */}
   {/* <TimelineScrubbingScroll /> */}
   {/* <GsapModal /> */}
-  <GsapAccordion />
+  {/* <GsapAccordion /> */}
+  <HoverCards />
   
     
     </>
