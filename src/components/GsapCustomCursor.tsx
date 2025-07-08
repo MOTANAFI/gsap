@@ -1,9 +1,8 @@
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 
-
 function GsapCustomCursor() {
-      const cursorRef = useRef<HTMLDivElement | null>(null);
+  const cursorRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const cursor = cursorRef.current;
@@ -36,11 +35,15 @@ function GsapCustomCursor() {
 
       {/* Content with hover interaction */}
       <div className="min-h-screen flex items-center justify-center space-x-8 bg-gray-100 text-xl font-bold">
-        <button className="hover-target px-4 py-2 bg-indigo-600 text-white rounded">Hover Me</button>
-        <button className="hover-target px-4 py-2 bg-pink-500 text-white rounded">Or Me</button>
+        <button className="hover-target px-4 py-2 bg-indigo-600 text-white rounded">
+          Hover Me
+        </button>
+        <button className="hover-target px-4 py-2 bg-pink-500 text-white rounded">
+          Or Me
+        </button>
       </div>
     </>
-  )
+  );
 }
 
-export default GsapCustomCursor
+export default GsapCustomCursor;
