@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import GsapCarousel from "./components/GsapCarousel"
+import DraggableSlider from "./components/DraggableSlider"
+
+// import GsapCarousel from "./components/GsapCarousel"
 
 // import GsapCustomCursor from "./components/GsapCustomCursor"
 
@@ -130,7 +132,8 @@ function App() {
   {/* <HoverCards /> */}
   {/* <GsapTabs /> */}
   {/* < GsapCustomCursor /> */}
-  <GsapCarousel />
+  {/* <GsapCarousel /> */}
+  < DraggableSlider />
   
     
     </>
