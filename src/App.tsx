@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import GsapTabs from "./components/GsapTabs"
+import GsapCustomCursor from "./components/GsapCustomCursor"
+
+// import GsapTabs from "./components/GsapTabs"
 // import HoverCards from "./components/HoverCards"
 
 // import GsapAccordion from "./components/GsapAccordion"
@@ -124,7 +126,8 @@ function App() {
   {/* <GsapModal /> */}
   {/* <GsapAccordion /> */}
   {/* <HoverCards /> */}
-  <GsapTabs />
+  {/* <GsapTabs /> */}
+  < GsapCustomCursor />
   
     
     </>
