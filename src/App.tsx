@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import GsapLoadingDots from "./components/GsapLoadingDots"
+import GsapSuccessCheckmark from "./components/GsapSuccessCheckmark"
+
+// import GsapLoadingDots from "./components/GsapLoadingDots"
 
 // import GsapCursorGrowOnHover from "./components/GsapCursorGrowOnHover"
 // import GsapInputFocus from "./components/GsapInputFocus"
@@ -156,7 +158,8 @@ function App() {
   {/* <GsapCursorFollower /> */}
   {/* <GsapCursorGrowOnHover /> */}
   {/* <GsapInputFocus /> */}
-  <GsapLoadingDots />
+  {/* <GsapLoadingDots /> */}
+  <GsapSuccessCheckmark />
   
     
     </>
