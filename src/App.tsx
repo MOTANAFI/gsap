@@ -7,6 +7,7 @@
 // import GsapChallenge from "./components/GsapChallenge"
 
 import GsapCursorGrowOnHover from "./components/GsapCursorGrowOnHover"
+import GsapInputFocus from "./components/GsapInputFocus"
 
 // import GsapCursorFollower from "./components/GsapCursorFollower"
 
@@ -151,7 +152,8 @@ function App() {
   {/* <ButtonBorderRipple /> */}
   {/* <GsapCardHover /> */}
   {/* <GsapCursorFollower /> */}
-  <GsapCursorGrowOnHover />
+  {/* <GsapCursorGrowOnHover /> */}
+  <GsapInputFocus />
   
     
     </>
