@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import GsapCursorFollower from "./components/GsapCursorFollower"
+import GsapCursorGrowOnHover from "./components/GsapCursorGrowOnHover"
+
+// import GsapCursorFollower from "./components/GsapCursorFollower"
 
 // import GsapCardHover from "./components/GsapCardHover"
 
@@ -148,7 +150,8 @@ function App() {
   {/* <HoverButton /> */}
   {/* <ButtonBorderRipple /> */}
   {/* <GsapCardHover /> */}
-  <GsapCursorFollower />
+  {/* <GsapCursorFollower /> */}
+  <GsapCursorGrowOnHover />
   
     
     </>
