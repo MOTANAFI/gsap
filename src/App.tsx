@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import GsapCardHover from "./components/GsapCardHover"
+import GsapCursorFollower from "./components/GsapCursorFollower"
+
+// import GsapCardHover from "./components/GsapCardHover"
 
 // import ButtonBorderRipple from "./components/ButtonBorderRipple"
 
@@ -145,7 +147,8 @@ function App() {
   {/* <GsapTooltip /> */}
   {/* <HoverButton /> */}
   {/* <ButtonBorderRipple /> */}
-  <GsapCardHover />
+  {/* <GsapCardHover /> */}
+  <GsapCursorFollower />
   
     
     </>
