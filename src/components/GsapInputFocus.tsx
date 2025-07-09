@@ -48,6 +48,7 @@ function GsapInputFocus() {
           Your Name
         </label>
         <input
+        ref={inputRef}
           type="text"
           id="name"
           value={value}

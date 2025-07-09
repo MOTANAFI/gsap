@@ -6,8 +6,10 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import GsapCursorGrowOnHover from "./components/GsapCursorGrowOnHover"
-import GsapInputFocus from "./components/GsapInputFocus"
+import GsapLoadingDots from "./components/GsapLoadingDots"
+
+// import GsapCursorGrowOnHover from "./components/GsapCursorGrowOnHover"
+// import GsapInputFocus from "./components/GsapInputFocus"
 
 // import GsapCursorFollower from "./components/GsapCursorFollower"
 
@@ -153,7 +155,8 @@ function App() {
   {/* <GsapCardHover /> */}
   {/* <GsapCursorFollower /> */}
   {/* <GsapCursorGrowOnHover /> */}
-  <GsapInputFocus />
+  {/* <GsapInputFocus /> */}
+  <GsapLoadingDots />
   
     
     </>
