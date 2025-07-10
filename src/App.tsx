@@ -6,7 +6,9 @@
 // import GsapClickBox from "./components/GsapClickBox"
 // import GsapChallenge from "./components/GsapChallenge"
 
-import GsapSuccessCheckmark from "./components/GsapSuccessCheckmark"
+import BurgerMenuAnimation from "./components/BurgerMenuAnimation"
+
+// import GsapSuccessCheckmark from "./components/GsapSuccessCheckmark"
 
 // import GsapLoadingDots from "./components/GsapLoadingDots"
 
@@ -159,7 +161,8 @@ function App() {
   {/* <GsapCursorGrowOnHover /> */}
   {/* <GsapInputFocus /> */}
   {/* <GsapLoadingDots /> */}
-  <GsapSuccessCheckmark />
+  {/* <GsapSuccessCheckmark /> */}
+  <BurgerMenuAnimation />
   
     
     </>
